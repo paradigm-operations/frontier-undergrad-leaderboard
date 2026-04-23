@@ -373,7 +373,9 @@ def main():
     DOCS.mkdir(exist_ok=True)
     html = generate_html(scores, events, bump_data)
     (DOCS / "index.html").write_text(html)
-    print(f"✅ Site generated at {DOCS / 'index.html'}")
+    # Also write to repo root for GitHub Pages compatibility
+    (ROOT / "index.html").write_text(html)
+    print(f"✅ Site generated at {DOCS / 'index.html'} (and repo root)")
 
 
 if __name__ == "__main__":
