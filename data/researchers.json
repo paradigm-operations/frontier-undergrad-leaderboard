@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Example Student",
+    "university": "MIT",
+    "grad_year": 2027,
+    "fields": ["AI", "robotics"],
+    "twitter_handle": null,
+    "github_handle": null,
+    "scholar_id": null,
+    "semantic_scholar_id": null,
+    "notes": "Placeholder — replace with real researchers",
+    "manual_boost": 0,
+    "boost_reason": null
+  }
+]
